@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    font-family: Calibri, sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    color: gray;
+}
+p{
+    font-size: 25px;
+    color: grey;
+    margin-bottom: 10px;
+}
+.button{
+    background-color: gray;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    margin: 10px;
+    color: whitesmoke;
+}
+header{
+    background: linear-gradient(45deg,teal,lightseagreen);
+    padding: 25px
+}
+header h1{
+    color: whitesmoke;
+}
+nav{
+    background-color: lightgray;
+}
+nav a{
+    padding: 10px 25px;
+    font-size: 18px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+.home-section{
+    padding: 100px;
+}
+section div img{
+    width: 200px;
+    height: 200px;
+}
+.our-packages figure{
+    box-shadow: 0 0 10px;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+.our-packages figure img{
+    width: 100%;
+}
+.our-packages figure figcaption{
+    font-size: 30px;
+}
+.our-packeges figure p{
+    font-size: 18px;
+}
+.main-footer{
+    background-color: grey;
+    color-scheme: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+}
